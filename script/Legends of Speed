@@ -47,4 +47,4 @@ task.wait()
 end
 end)
 
-TabCradit:CreateLabel("[ Cradit ] : Giang", "Nope")
+TabCradit:CreateLabel("[ Cradit ] : Giang", "Giang")
