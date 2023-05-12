@@ -112,4 +112,4 @@ TabMisc:CreateButton("Remove Water All", function()
     game.Workspace.BoatStages.NormalStages.CaveStage10.Water:Remove()
 end)
 
-TabCradit:CreateLabel("[ Cradit ] : Giang", "Nope")
+TabCradit:CreateLabel("[ Cradit ] : Giang", "Giang")
