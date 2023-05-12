@@ -1,0 +1,471 @@
+local Coasting = loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/Coasting/main/Source.lua"))()
+
+local Tab = Coasting:CreateTab("UNO")
+local Tab1 = Tab:CreateSection("Main")
+local Tab2 = Tab:CreateSection("Main")
+
+Tab1:CreateToggle("Auto 6 Slap", function(bool)
+   _G.Auto6Slap = bool
+while _G.Auto6Slap do
+game:GetService("ReplicatedStorage").Remotes.SlapOnSix:FireServer()
+task.wait()
+end
+end)
+
+Tab1:CreateToggle("Auto Official", function(bool)
+   _G.Call = bool
+while _G.Call do
+game:GetService("ReplicatedStorage").Remotes.CallOfficial:FireServer()
+task.wait()
+end
+end)
+
+Tab2:CreateToggle("AI turn ON", function(bool)
+    _G.Auto = bool
+while _G.Auto do
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "1",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "2",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "3",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "4",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "5",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "6",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "7",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "8",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "9",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Wild",
+            ["Symbol"] = "Wild +4",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Yellow",
+            ["Symbol"] = "Cancel",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "1",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "2",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "3",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "4",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "5",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "6",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "7",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "8",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "9",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Wild",
+            ["Symbol"] = "Wild +4",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Blue",
+            ["Symbol"] = "Cancel",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "1",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "2",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "3",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "4",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "5",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "6",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "7",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "8",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Green",
+            ["Symbol"] = "9",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Wild",
+            ["Symbol"] = "Wild +4",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "Cancel",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "1",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "2",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "3",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "4",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "5",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "6",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "7",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "8",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "9",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Wild",
+            ["Symbol"] = "Wild +4",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+    wait()
+    local args = {
+        [1] = {
+            ["Color"] = "Red",
+            ["Symbol"] = "Cancel",
+            ["CurrentNumber"] = 0
+        }
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.PlayCard:FireServer(unpack(args))
+    wait()
+end
+end)
