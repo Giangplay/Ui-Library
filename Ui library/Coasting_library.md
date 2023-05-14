@@ -61,10 +61,17 @@ end)
 ## Creating Slider
 The WalkSpeed | JumpPower
 ```lua
-Section1:CreateSlider("Slider", 0, 500, 20, false, function(value)
-   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+Section1:CreateSlider("Slider", 0, 500, 20, false, function(WS)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = WS
 
    WS1 = WS
+end)
+```
+
+## Creating Slider
+```lua
+Section1:CreateSlider("Slider", 0, 500, 20, false, function(value)
+   print("value")
 end)
 ```
 
