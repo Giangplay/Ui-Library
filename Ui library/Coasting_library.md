@@ -62,7 +62,9 @@ end)
 The WalkSpeed | JumpPower
 ```lua
 Section1:CreateSlider("Slider", 0, 500, 20, false, function(value)
-   game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+
+WS1 = WS
 end)
 ```
 
