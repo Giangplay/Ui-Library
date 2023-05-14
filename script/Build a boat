@@ -9,6 +9,9 @@ local Tab1 = Coasting:CreateTab("Misc")
 local TabMisc = Tab1:CreateSection("Misc")
 local TabCradit = Tab1:CreateSection("Cradit")
 
+local Tab2 = Coasting:CreateTab("Local")
+local TabLocal = Tab2:CreateSection("Local")
+
 TabAutoFarm:CreateToggle("AutoFarm All Map", function(bool)
    _G.AutoFarm = bool
 		while _G.AutoFarm do
@@ -112,7 +115,17 @@ TabMisc:CreateButton("Remove Water All", function()
     game.Workspace.BoatStages.NormalStages.CaveStage10.Water:Remove()
 end)
 
+TabLocal:CreateSlider("WalkSpeed", 20, 999, 20, false, function(WS)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = WS
+end)
+
+TabLocal:CreateSlider("JumpPower", 50, 999, 50, false, function(JP)
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = JP
+end)
+
 TabCradit:CreateLabel("[ Cradit ] : Giang", "Giang")
+
+---TogglesUiLibrary---
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
