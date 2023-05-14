@@ -18,7 +18,7 @@ TabAutoFarm:CreateButton("Teleport to random marker", function()
 end)
 
 TabLocal:CreateSlider("WalkSpeed", 0, 500, 20, false, function(Value)
-   game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
 end)
 
 local ScreenGui = Instance.new("ScreenGui")
