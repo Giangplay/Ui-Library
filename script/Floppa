@@ -99,24 +99,11 @@ TabMisc:CreateToggle("Clean Poop", function(bool)
 			end
 end)
 
-TabMisc:CreateSlider("WalkSpeed", 20, 500, 20, false, function(WS)
-   game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = WS
-   
-   WS1 = WS
+TabMisc:CreateSlider("WalkSpeed", 20, 500, 20, false, function(Value)
+   game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = Value
 end)
 
-TabMisc:CreateToggle("Auto Set Speed", function(bool)
-   autoSet1 = bool
-        if bool == true then
-            while autoSet1 do
-                task.wait()
-                local Character = workspace:WaitForChild(game.Players.LocalPlayer.Name)
-                if Character:FindFirstChild("Humanoid") ~= nil and Character.Humanoid.WalkSpeed ~= WS1 then
-                    Character:FindFirstChild("Humanoid").WalkSpeed = WS1
-                end
-            end
-        end
-end)
+
 
 ---ToggleUiLibrary---
 
