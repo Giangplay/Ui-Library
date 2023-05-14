@@ -64,7 +64,7 @@ The WalkSpeed | JumpPower
 Section1:CreateSlider("Slider", 0, 500, 20, false, function(value)
    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
 
-WS1 = WS
+   WS1 = WS
 end)
 ```
 
