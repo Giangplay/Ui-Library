@@ -21,7 +21,7 @@ local Tab = Window:addPage("Home", 1, true, 6)
 Tab:addLabel("This is a Label", "Lol this funny")
 ```
 
-#Creating Button
+# Creating Button
 ```lua
 Tab:addButton("button", function()
     print("Click")
