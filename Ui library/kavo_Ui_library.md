@@ -4,7 +4,7 @@ Kavo Old The Not Upload (PE) (PC)
 
 ## Getting Loadstring Old
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/SB-ok/main/Kavo%20ui%20old"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Kavo.lua"))()
 ```
 
 ## Getting Loadstring New
