@@ -11,7 +11,7 @@ local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloo
 local Tab1 = library:CreateWindow("Tab1")
 ```
 
-Creating Tab2
+# Creating Tab2
 ```lua
 local Tab2 = Tab1:CreateFolder("Tab2")
 ```
