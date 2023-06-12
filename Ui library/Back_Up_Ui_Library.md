@@ -6,7 +6,7 @@ Create then Owen
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
 ```
 
-# Creating Tab1
+# Creating Windows
 ```lua
 local Tab1 = library:CreateWindow("Tab1")
 ```
