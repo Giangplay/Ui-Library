@@ -8,12 +8,12 @@ local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloo
 
 # Creating Windows
 ```lua
-local Tab1 = library:CreateWindow("Tab1")
+local Window = library:CreateWindow("Name")
 ```
 
 # Creating Tab2
 ```lua
-local Tab2 = Tab1:CreateFolder("Tab2")
+local Tab1 = Window:CreateFolder("Tab2")
 ```
 
 # Creating Label
