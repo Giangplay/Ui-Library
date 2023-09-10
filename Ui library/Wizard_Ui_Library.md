@@ -47,7 +47,7 @@ end)
 # Slider
 ```lua
 Tab1:CreateSlider("Slider", 0, 100, 15, false, function(value)
-game.Player.LocalPlayer.Character.Humoid.WalkSpeed = value
+game.Player.LocalPlayer.Character.Humanoid.WalkSpeed = value
 end)
 ```
  
