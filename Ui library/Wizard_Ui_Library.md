@@ -3,7 +3,7 @@ Credit to bloodball
 
 # Loadstring Ui Library
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/wizard.txt"))()
 ```
 
 # Credit Window
