@@ -71,6 +71,21 @@ Time = <number> - The duration of the notfication.
 ```
 
 
+## Notifying 2 the user
+```lua
+OrionLib:MakeNotifi({
+	Title = "Title!",
+	Text = "Notification content... what will it say??"
+	Time = 5
+})
+--[[
+Title = <string> - The title of the notification.
+Text = <string> - The content of the notification.
+Time = <number> - The duration of the notfication.
+]]
+```
+
+
 
 ## Creating a Button
 ```lua
