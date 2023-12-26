@@ -75,7 +75,7 @@ Time = <number> - The duration of the notfication.
 ```lua
 OrionLib:MakeNotifi({
 	Title = "Title!",
-	Text = "Notification content... what will it say??"
+	Text = "Notification content... what will it say??",
 	Time = 5
 })
 --[[
