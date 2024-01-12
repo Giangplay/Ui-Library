@@ -118,7 +118,7 @@ Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
 end)
 ```
 
-## Toggle Ui Kavo Ui Library
+## Toggle Ui Kavo Ui Library (Kavo Old not New)
 ```lua
 Library:ToggleUIGui()
 ```
