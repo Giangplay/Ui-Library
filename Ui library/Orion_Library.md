@@ -6,7 +6,10 @@ This documentation is for the stable release of Orion Library.
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 ```
 
-
+## Booting the Library
+```lua
+local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Giangplay/Script/main/Orion_Library_PE_V2.lua")))()
+```
 
 ## Creating a Window
 ```lua
@@ -71,7 +74,7 @@ Time = <number> - The duration of the notfication.
 ```
 
 
-## Notifying 2 the user
+## Notifying 2 the user (Orion 2)
 ```lua
 OrionLib:MakeNotifi({
 	Title = "Title!",
@@ -298,6 +301,20 @@ Tab1:AddToggle({
 })
 
 print(OrionLib.Flags["toggle"].Value) -- prints the value of the toggle.
+```
+
+And
+
+```lua
+Tab1:AddToggle({
+    Name = "Toggle",
+    Default = true,
+    Save = true,
+    Flag = "toggle"
+    Callback = function(Value)
+     print("Toggle")
+    end
+})
 ```
 Flags only work with the toggle, slider, dropdown, bind, and colorpicker.
 
