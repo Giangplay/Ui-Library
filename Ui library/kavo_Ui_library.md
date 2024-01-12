@@ -14,7 +14,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 ## Creating UI Library Window
 ```lua
-local Window = Library.CreateLib("Name", "Theme")
+local Window = Library.CreateLib("Name", "Ocean")
 ```
 
 ## Theme
@@ -116,6 +116,11 @@ end)
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
+```
+
+## Toggle Ui Kavo Ui Library
+```lua
+Library:ToggleUIGui()
 ```
 
 ## Creating Dropdowns
