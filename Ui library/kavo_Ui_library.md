@@ -122,8 +122,8 @@ end)
 ```lua
 Library:ToggleUIGui({
       Icons = "rbxassetid://4384403532"
-
 })
+
 --[[  Library:ToggleUIGui({Icons = "rbxassetid://4384403532"})  ]]--
 ```
 
