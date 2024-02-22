@@ -121,9 +121,10 @@ end)
 ## Toggle Ui Kavo Ui Library (Kavo Old not New)
 ```lua
 Library:ToggleUIGui({
-     IDIcons = "4384403532"
+      Icons = "rbxassetid://4384403532"
+
 })
---[[  Library:ToggleUIGui({IDIcons = "4384403532"})  ]]--
+--[[  Library:ToggleUIGui({Icons = "rbxassetid://4384403532"})  ]]--
 ```
 
 ## Creating Dropdowns
