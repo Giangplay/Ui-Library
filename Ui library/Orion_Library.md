@@ -6,7 +6,7 @@ This documentation is for the stable release of Orion Library.
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 ```
 
-## Booting the Library
+## Booting the Library 2
 ```lua
 local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Giangplay/Script/main/Orion_Library_PE_V2.lua")))()
 ```
