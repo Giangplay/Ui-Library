@@ -18,14 +18,35 @@ local Window = Library.CreateLib("Name", "Ocean")
 ```
 
 ## Theme
-```lua
+```
 LightTheme
+```
+
+```
 DarkTheme
+```
+
+```
 GrapeTheme
+```
+
+```
 BloodTheme
+```
+
+```
 Ocean
+```
+
+```
 Midnight
+```
+
+```
 Sentinel
+```
+
+```
 Synapse
 ```
 
